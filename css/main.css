@@ -1,0 +1,155 @@
+
+.hero--section{
+    padding-top:30rem;
+}
+
+.section_text{
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dropdown_button{
+    position: relative;
+   bottom: 3rem;
+   background-color: rgb(216, 2, 2);
+   width: 2rem;
+   text-align: center;
+   border-radius: 5px  5px 0px 0px;
+   font-size: 0.9rem;
+   cursor: pointer;
+  
+}
+.dropdown_v{
+    display: flex;
+    justify-content: center;
+}
+.menu--section{
+    display: flex;
+    justify-content: center;
+    padding-top: 24vh;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 48rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 25px 25px 0 0;
+    height: 2rem;
+    background-color: rgb(216, 2, 2);
+}
+
+.dropdownbuttonnew{
+    position: relative;
+   bottom: 4rem;
+   background-color: rgb(216, 2, 2);
+   width: 2rem;
+   text-align: center;
+   border-radius: 5px  5px 0px 0px;
+   font-size: 0.9rem;
+   cursor: pointer;
+  
+}
+.menusectionnew{
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+}
+.menunew{
+    display: flex;
+    height: 3rem;
+    width: 48rem;
+    border-radius: 25px;
+    background-color: rgb(216, 2, 2);
+}
+
+
+.menu_text{
+    font-size: 0.5rem;
+    padding-left: 0.3rem;
+    padding-top: 0.3rem;
+    text-align: center;
+}
+
+.displaymenu{
+    display: none;
+}
+.displaymenunew{
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+     width: 24rem;
+     margin-left: 0.5rem;
+     margin-right: 0.5rem;
+     border-radius: 25px 25px 0 0;
+     height: 2rem;
+     background-color: rgb(216, 2, 2);
+}
+
+
+
+
+@media screen and (min-width:480px){
+    .section_text{
+        font-size: 3.4rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .menu--section{
+        display: flex;
+        justify-content: center;
+        padding-top: 24vh;
+    }
+    
+    .menusectionnew{
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+    .hero--section{
+        padding-top:21rem;
+    }
+    .menu_text{
+        font-size: 0.8rem;
+        padding-left: 0.3rem;
+        padding-top: 0.3rem;
+        text-align: center;
+    }
+    .displaymenu{
+        display: none;
+    }
+    .displaymenunew{
+        display: inline;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+         width: 48rem;
+         margin-left: 0.5rem;
+         margin-right: 0.5rem;
+         border-radius: 25px 25px 0 0;
+         height: 2rem;
+         background-color: rgb(216, 2, 2);
+    }
+    
+}
+
+@media screen and (max-width:376px){
+    .hero--section{
+        padding-top:20rem;
+    }
+    
+}
+
+
+
+
+
+
